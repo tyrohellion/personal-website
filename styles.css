@@ -1,0 +1,207 @@
+
+/* Add Inter Font Family */
+:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+}
+  @supports (font-variation-settings: normal) {
+    :root { font-family: InterVariable, sans-serif; }
+}
+
+.navbar {
+    display: flex;
+    top: 40px;
+    right: 40px;
+    position: fixed;
+    border-radius: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+    background-color: rgb(199, 205, 228);
+    z-index: 9999;
+}
+
+.dark-theme {
+    color: #ffffff;
+    background-color: rgb(17, 17, 17);
+}
+
+.dark-theme .navbar {
+    border: 1px solid rgba(255, 255, 255, 0.267);
+    background-color: rgb(24, 24, 29);
+}
+
+.dark-theme h2 {
+    color: #ffffff;
+}
+
+ol {
+    list-style-type: none;
+    margin: 12px;
+    padding: 8px;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    margin-right: 0px;
+    padding: 16px;
+    font-weight: 600;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.right-nav {
+    float: right;
+    margin: 0;
+    padding-right: 16px;
+    padding-top: 16px;
+    overflow: hidden;
+}
+
+.button1 {
+    padding: 8px;
+    border-radius: 999px; 
+    margin: 8px;
+}
+
+.button2 {
+    padding: 8px;
+    border-radius: 999px;
+    margin: 8px;
+}
+
+body {
+    display: inline;
+}
+
+section {
+    position: relative;
+    display: flex;
+
+    flex-direction: column;
+    min-height: 600px;
+}
+
+section2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 200px;
+}
+
+.blue {
+    background: #C8D0EB;
+    min-height: 1200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #6d83ca;
+    font-size: xxx-large;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    color: #6d83ca;
+    font-size: xxx-large;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding-top: 240px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: large;
+
+}
+
+.curve {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.curve svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 133px;
+}
+
+.curve .shape-fill {
+    fill: #C8D0EB;
+}
+
+
+.tilt {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.tilt svg {
+    position: relative;
+    display: block;
+    width: calc(153% + 1.3px);
+    height: 133px;
+}
+
+.tilt .shape-fill {
+    fill: #EAD7F5;
+}
+
+.pink {
+    min-height: 1200px;
+    background: #EAD7F5;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(123% + 1.3px);
+    height: 86px;
+}
+
+.wave .shape-fill {
+    fill: #FFFFFF;
+}
+
+.white {
+    background: #FFFFFF;
+    min-height: 1200px;
+}
