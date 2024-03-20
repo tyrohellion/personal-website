@@ -5,6 +5,6 @@ document.getElementById('dark-theme').addEventListener('click', function() {
 
 
 function scrollToElement() {
-    var element = document.getElementById('Portfolio');
+    var element = document.getElementById('portfolio');
     element.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }

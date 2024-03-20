@@ -46,12 +46,26 @@ li {
     margin-right: 0px;
     padding: 16px;
     font-weight: 600;
+    border-radius: 16px;
 }
 
 li a {
     display: block;
     padding: 8px;
     text-decoration: none;
+}
+
+.navbar li:hover {
+    background-color: #EAD7F5;
+    border-radius: 16px;
+    transition: 300ms ease-in-out;
+}
+
+.dark-theme .navbar li:hover {
+    background-color: #EAD7F5;
+    border-radius: 16px;
+    transition: 300ms ease-in-out;
+    color: black;
 }
 
 .right-nav {
@@ -204,4 +218,26 @@ p {
 .white {
     background: #FFFFFF;
     min-height: 1200px;
+}
+
+footer {
+    display: flex;
+    background: #314170;
+    text-decoration: none;
+    min-height: 300px;
+}
+
+footer li {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+footer ul {
+    color: white;
+    text-decoration: none;
+}
+
+footer li:hover {
+    text-decoration: underline;
 }
