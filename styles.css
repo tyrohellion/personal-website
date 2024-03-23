@@ -322,12 +322,20 @@ p {
 }
 
 .tilt .shape-fill {
-    fill: #EAD7F5;
+    fill: #ffffff;
+}
+
+.dark-theme .tilt .shape-fill {
+    fill: #17191d;
 }
 
 .pink {
     min-height: 1200px;
-    background: #EAD7F5;
+    background: #ffffff;
+}
+
+.dark-theme .pink {
+    background: #17191d;
 }
 
 .wave {
@@ -363,7 +371,7 @@ footer {
     align-items: stretch;
     text-decoration: none;
     min-height: 250px;
-    background-color: #17191d;
+    background-color: #C8D0EB;
 }
 
 footer .dark-theme {
@@ -371,7 +379,7 @@ footer .dark-theme {
 }
 
 footer li {
-    color: white;
+    color: black;
     text-decoration: none;
     list-style-type: none;
     margin-bottom: 1px;
@@ -381,7 +389,7 @@ footer li {
 }
 
 footer li a {
-    color: white;
+    color: black;
     text-decoration: none;
     list-style-type: none;
     padding-bottom: 1px;

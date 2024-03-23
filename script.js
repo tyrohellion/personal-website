@@ -21,26 +21,30 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-
+document.addEventListener('DOMContentLoaded', function() {
     // Function to scroll to portfolio section
     function scrollToPortfolio() {
         var element = document.getElementById('portfolio');
         element.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
-
+});
+document.addEventListener('DOMContentLoaded', function() {
     // Function to scroll to art section
     function scrollToArt() {
-        var element = document.getElementById('art');
+        var element = document.getElementById('About');
         element.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
-
+});
+document.addEventListener('DOMContentLoaded', function() {
     // Function to scroll to hobbies section
     function scrollToHobbies() {
-        var element = document.getElementById('hobbies');
+        var element = document.getElementById('footer');
         element.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
-
+});
+document.addEventListener('DOMContentLoaded', function() {
     // Add event listener to toggle dark theme on hamburger click
     document.getElementById('hamburger').addEventListener('click', function() {
         document.body.classList.toggle('dark-theme');
     });
+});
