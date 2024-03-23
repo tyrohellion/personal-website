@@ -93,6 +93,17 @@ li a {
     cursor: pointer;
 }
 
+.main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main p {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
 body {
     display: inline;
 }
@@ -101,15 +112,7 @@ section {
     position: relative;
     display: flex;
     flex-direction: column;
-    min-height: 600px;
-}
-
-section2 {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    min-height: 200px;
+    height: 800px;
 }
 
 .blue {
@@ -195,7 +198,8 @@ section2 {
     }
 
     .blue {
-        min-height: 1600px;
+        display: flex;
+        height: 2400px;
     }
 
     .item:first-child { flex-basis: 100%; }
@@ -303,60 +307,13 @@ p {
     fill: #C8D0EB;
 }
 
-
-.tilt {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.tilt svg {
-    position: relative;
-    display: block;
-    width: calc(153% + 1.3px);
-    height: 133px;
-}
-
-.tilt .shape-fill {
-    fill: #ffffff;
-}
-
-.dark-theme .tilt .shape-fill {
-    fill: #17191d;
-}
-
-.pink {
+.about-me {
     min-height: 1200px;
     background: #ffffff;
 }
 
-.dark-theme .pink {
+.dark-theme .about-me {
     background: #17191d;
-}
-
-.wave {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.wave svg {
-    position: relative;
-    display: block;
-    width: calc(123% + 1.3px);
-    height: 86px;
-}
-
-.wave .shape-fill {
-    fill: #FFFFFF;
 }
 
 .white {
@@ -365,8 +322,10 @@ p {
 }
 
 footer {
-    margin-top: auto;
     display: flex;
+    width: 100%;
+    height: 200px;
+    position: absolute;
     flex-direction: column;
     align-items: stretch;
     text-decoration: none;
@@ -404,4 +363,12 @@ footer ul {
 
 footer li:hover {
     text-decoration: underline;
+}
+
+#About {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 80px;
+    margin-right: 80px;
 }
