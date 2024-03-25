@@ -96,6 +96,7 @@ li a {
 .main {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -113,6 +114,7 @@ section {
     display: flex;
     flex-direction: column;
     height: 800px;
+    align-items: center;
 }
 
 .blue {
@@ -308,7 +310,7 @@ p {
 }
 
 .about-me {
-    min-height: 1200px;
+    min-height: 800px;
     background: #ffffff;
 }
 
@@ -369,6 +371,6 @@ footer li:hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 160px;
+    margin-right: 160px;
 }
